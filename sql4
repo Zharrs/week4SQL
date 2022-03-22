@@ -1,0 +1,11 @@
+UPDATE school SET country = "Suède" WHERE id = 3;
+UPDATE school SET capacity = 700 WHERE id = 7;
+DELETE FROM school WHERE name LIKE '%Magic%';
+SELECT * FROM `school`;
+
+INSERT INTO `school` (`id`, `name`, `country`, `capacity`) VALUES 
+(NULL, 'Castelobruxo', 'Brazil', '380'), 
+(NULL, 'Durmstrang Institute', 'Suède', '570'), 
+NULL, 'Hogwarts School of Witchcraft and Wizardry', 'United Kingdom', '450'), 
+(NULL, 'Ilvermorny School of Witchcraft and Wizardry', 'USA', '300'), 
+(NULL, 'Koldovstoretz', 'Russia', '125')
